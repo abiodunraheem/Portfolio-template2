@@ -49,10 +49,10 @@ body {
 .section-container {
   background-image: url('./images/Group.png');
   background-size: 135px;
-  background-position: right -1px bottom -45px;
+  background-position: right 0 bottom -30px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  height: 106vh;
+  height: 95vh;
   color: #fff;
   padding: 0;
 }
