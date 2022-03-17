@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.info {
+  height: 40px;
+  padding-bottom: 15px;
+  background-color: #3c3a39;
+}
+
+.info .my-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.my-info a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.my-info ul {
+  display: none;
+}
+
+.my-info .name {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  padding-left: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.my-info .harmburger {
+  line-height: 24px;
+  align-items: center;
+  padding-right: 28px;
+}
+
+.section-container {
+  background-image: url('./images/Group.png');
+  background-size: 135px;
+  background-position: right 0 bottom -30px;
+  background-color: #1c1a19;
+  background-repeat: no-repeat;
+  height: 95vh;
+  color: #fff;
+  padding: 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.intro h1 {
+  color: #ff6b00;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 0.03em;
+  line-height: 64px;
+  padding-bottom: 30px;
+  padding-left: 24px;
+  padding-top: 40px;
+  margin-top: 68px;
+}
+
+.about {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px;
+  padding-left: 24px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro .about-me {
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 36px;
+  padding-top: 18px;
+}
+
+.social-icon li {
+  padding-right: 18px;
+  list-style-type: none;
+}
