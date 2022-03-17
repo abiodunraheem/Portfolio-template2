@@ -122,8 +122,6 @@ body {
   font-weight: normal;
   font-family: 'Crete Round', serif;
   padding-top: 80px;
-  /* margin-left: -2px; */
-  /* margin-top: 24px; */
   align-items: center;
   text-align: center;
   margin: 24px auto 0 auto;
@@ -131,11 +129,8 @@ body {
 
 .section-title hr {
   border: 1px solid #9b9797;
-  /* margin-top: 24px; */
-  /* margin-bottom: 24px; */
   width: 319px;
   align-items: center;
-  /* margin-left: 2px; */
   margin: 24px auto 24px auto;
 }
 
@@ -381,28 +376,6 @@ body {
   margin: 10px 0 80px 120px;
   width: 120px;
 }
-
-/* .get-in-touch {
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  background: #ff6b00;
-  padding: 10px;
-  margin: 40px auto;
-  width: 100px;
-}
-
-.get-in-touch a {
-  color: #fff;
-  text-align: center;
-  align-items: center;
-  text-decoration: none;
-} */
 
 .input-details {
   font-family: 'Inter', sans-serif;
