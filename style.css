@@ -50,10 +50,10 @@ body {
 .section-container {
   background-image: url('./images/Group.png');
   background-size: 135px;
-  background-position: right 0 bottom -30px;
+  background-position: right 0 bottom -47px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 106vh;
   color: #fff;
   padding: 0;
 }
@@ -412,6 +412,11 @@ body {
   line-height: 24px;
 }
 
+.about-me2 button {
+  margin: 10px 0 80px 120px;
+  width: 120px;
+}
+
 .abiodunbtn button:enabled {
   background: #ff6b00;
   color: #fff;
@@ -527,6 +532,15 @@ body {
   color: #fff;
 }
 
+.about-me2 li {
+  list-style-type: none;
+}
+
+.footer-social-icon li {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
 .abiodunskills ul li {
   list-style-type: none;
 }
@@ -539,4 +553,87 @@ body {
   font-size: 22px;
   line-height: 43px;
   color: #fff;
+}
+
+.about-me2 p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 70px 0 40px 0;
+  padding: 0 15px 0 20px;
+  text-align: center;
+}
+
+.input-details {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #979493;
+  margin: 10px;
+  border-top-style: hidden;
+  width: 327px;
+}
+
+input {
+  border: hidden;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-top: 15px;
+  width: 320px;
+}
+
+.input-details hr {
+  border: -0.5px solid #9b9797;
+  width: 320px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.text-area {
+  align-items: center;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  padding-top: 20px;
+  padding-left: 12px;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  width: 310px;
+}
+
+.terminal-line hr {
+  border: 1px solid #0d151e;
+  height: 1px;
+  background: #0d151e;
+  width: 120px;
+  margin-left: 32%;
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.footer-social-icon a {
+  text-decoration: none;
 }
