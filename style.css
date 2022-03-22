@@ -1,10 +1,25 @@
 * {
+  /* box-sizing: border-box; */
   margin: 0;
   padding: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #fff;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* header section */
@@ -17,7 +32,9 @@ body {
 .info .my-info {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  align-items: center;
+  padding: 15px 0;
+  position: relative;
 }
 
 .my-info a {
@@ -61,6 +78,9 @@ body {
 .intro {
   display: flex;
   flex-direction: column;
+
+  /* padding: 10px 12px 10px 13px; */
+  margin: 0 12px 13px 10px;
 }
 
 /* intro section */
@@ -156,6 +176,24 @@ body {
   padding-right: 15px;
 }
 
+.btn-1 {
+  width: 45%;
+  height: 48px;
+  background: #ff6b00;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 20px;
+  border: 1px solid #ff6b00;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.section-one .btn-1 {
+  width: 137px;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 59px 70px 98px 70px;
@@ -194,20 +232,6 @@ body {
   background: #fff;
   box-sizing: border-box;
   color: #091e42;
-}
-
-.btn-1 {
-  width: 45%;
-  height: 48px;
-  background: #ff6b00;
-  text-align: center;
-  font-size: 17px;
-  margin-top: 20px;
-  border: 1px solid #ff6b00;
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .btn-1:enabled {
@@ -258,9 +282,11 @@ body {
 
 .section-one li {
   list-style-type: none;
-  padding: 0.5rem 1rem;
+
+  /* padding: 0.5rem 1rem; */
   line-height: 20px;
   margin-left: 6px;
+  padding: 7px 2px 10px 2px;
 }
 
 .section-one a {
@@ -273,7 +299,195 @@ body {
   text-align: center;
 }
 
-.back-images {
+/* actual page styling */
+.main {
+  width: 100%;
+}
+
+.projectHeader h3 {
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+/* The individual projects section now */
+
+.myProjects {
+  background: #fff;
+  padding-bottom: 8px;
+  margin: 24px 1px 30px 13px;
+}
+
+.desktop-Projects {
+  display: none;
+}
+
+.project {
+  margin: 0 24px 36px 12px;
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(50, 50, 38, 0) 0.65%,
+      rgba(38, 38, 38, 0.9) 75.94%
+    ),
+    url(../images/projectbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 386px;
+  position: relative;
+}
+
+.projectHeader {
+  padding: 84px 16px 12px 16px;
+  width: 295px;
+  height: 81px;
+}
+
+.footer-social-icon li {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.projectBody {
+  width: 295px;
+  height: 87px;
+  margin: 1px 16px 12px 16px;
+}
+
+.projectBody p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+
+  /* padding-top: 20px; */
+}
+
+.projectBody ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.about-me2 li {
+  list-style-type: none;
+}
+
+.projectBody ul li {
+  list-style: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 12px;
+  position: static;
+
+  /* padding: 7px 2px 10px 2px; */
+}
+
+.projectHTML {
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+}
+
+.projectHTML ul li {
+  width: 32px;
+  height: 20px;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.projectBootstrap {
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-left: -24px;
+  margin-right: 12px;
+
+  /* padding: 7px 2px 10px 2px; */
+}
+
+.projectBootstrap ul li {
+  width: 71px;
+  height: 20px;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.projectRuby {
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  margin-right: 12px;
+  margin-left: -10px;
+}
+
+.projectRuby ul li {
+  width: 37px;
+  height: 20px;
+  padding: 5px 12px;
+  color: #fff;
+}
+
+.projectButton {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 48px;
+  background: #ff6b00;
+}
+
+.projectButton button {
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  background: #ff6b00;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+}
+
+/* styling for the buttons */
+button:enabled {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+button:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+button:disabled {
+  background: rgba(255, 255, 255, 0.24);
+  color: #000;
+}
+
+/* .back-images {
   background-image: url(./images/section-2.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -345,7 +559,7 @@ body {
 .back-images a {
   text-decoration: none;
   color: #fff;
-}
+} */
 
 /* actual page styling */
 .whoIsAbiodun {
@@ -353,7 +567,7 @@ body {
   height: 2090px;
   background: #1c1a19;
   background-image: url(./images/footer-image.png);
-  background-position: top 425px right 0;
+  background-position: top 390px right 0;
   background-repeat: no-repeat;
 }
 
@@ -383,13 +597,15 @@ body {
 
 .abiodunbody p {
   width: 327px;
-  height: 148px;
+  height: 175px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+
+  /* padding: 70px 15px 12px 0; */
 }
 
 .abiodunbtn {
@@ -397,7 +613,8 @@ body {
   height: 48px;
   background: #ff6b00;
   text-align: center;
-  margin: 24px 0;
+
+  /* margin: 44px 0 24px 0; */
 }
 
 .abiodunbtn button {
@@ -410,6 +627,8 @@ body {
   font-size: 17px;
   color: #fff;
   line-height: 24px;
+
+  /* margin: 84px 0 24px 0; */
 }
 
 .about-me2 button {
@@ -450,7 +669,7 @@ body {
 }
 
 .abiodundesc hr {
-  margin: 244px 24px 130.73px 24px;
+  margin: 208px 24px 130.73px 24px;
   border: 1px solid #fff;
 }
 
@@ -530,15 +749,6 @@ body {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-}
-
-.about-me2 li {
-  list-style-type: none;
-}
-
-.footer-social-icon li {
-  list-style-type: none;
-  padding-right: 15px;
 }
 
 .abiodunskills ul li {
@@ -636,4 +846,363 @@ textarea {
 
 .footer-social-icon a {
   text-decoration: none;
+}
+
+/* Desktop version */
+@media screen and (min-width: 992px) {
+  .harmburger {
+    display: none;
+  }
+
+  .my-info .name {
+    /* padding: 0 0 30px 120px; */
+    padding: 0 1px 0 140px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .my-info ul {
+    display: flex;
+    list-style: none;
+    color: #fff;
+    margin-right: 130px;
+  }
+
+  .social-icon li {
+    padding: 8px 0;
+  }
+
+  .my-info ul li {
+    padding-left: 10px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .my-info a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .section-container {
+    width: 100%;
+    height: 653px;
+    position: relative;
+    background-image: url('./images/desktop-image.png');
+    background-size: 520px 565px;
+    background-position: bottom 120px right 0;
+    background-color: #1c1a19;
+    background-repeat: no-repeat;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+
+  .social-icon {
+    display: inline-block;
+    margin-left: 1px;
+    margin-top: -160px;
+  }
+
+  .intro h1 {
+    margin: 18px 57.2% 24px 0;
+    padding-top: 60px;
+    font-size: 62px;
+    line-height: 81px;
+    width: 31%;
+  }
+
+  .about {
+    margin-right: 48%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    width: 40.2%;
+    margin-top: -50px;
+    color: #fff;
+  }
+
+  .about-me {
+    margin-right: 46%;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 40.2%;
+    color: #fff;
+  }
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    margin: 0 34px 80px 44px;
+  }
+
+  .section-title hr {
+    margin-top: 122px;
+    width: 63%;
+    margin-right: 33px;
+    height: 0;
+  }
+
+  .section-one {
+    padding-left: 30px;
+    width: 440px;
+    letter-spacing: 0.03em;
+  }
+
+  .recent-work {
+    display: flex;
+    margin: 0 44px 0 64px;
+
+    /* padding-right: 10px; */
+  }
+
+  /* .recent-work button {
+    display: none;
+  } */
+
+  .main {
+    width: 100%;
+    margin-left: 30px;
+  }
+
+  .myWorksHeading h2 {
+    float: left;
+    margin: 0 24px 114px 35.5px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    width: 315px;
+    height: 52px;
+  }
+
+  .myWorksHeading hr {
+    width: 794px;
+    height: 0;
+    border: 0;
+    border-bottom: 4px solid #212121;
+    padding: 26px 0;
+    position: relative;
+    top: -25px;
+  }
+
+  /* Individual projects section */
+
+  .myProjects {
+    display: none;
+  }
+
+  .desktop-Projects {
+    margin: 5px 118px 0 38px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .projectButton {
+    display: none;
+  }
+
+  .project {
+    height: 435px;
+    width: 369px;
+    border-radius: 0;
+  }
+
+  .pj1 {
+    background: url(../images/projecthover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pj1 .projectButton {
+    display: block;
+  }
+
+  .pj1 p {
+    display: none;
+  }
+
+  .pj2 {
+    background: url(../images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pj3 {
+    background: url(../images/deskt3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pj5 {
+    background: url(../images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pj6 {
+    background: url(../images/deskt3.png);
+
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+  }
+
+  .projectHeader h3 {
+    width: 337px;
+    height: 81px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 85px auto 24px auto;
+  }
+
+  .projectBody p {
+    position: relative;
+    margin: 97px auto 24px auto;
+    width: 337px;
+    height: 72px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .whoIsAbiodun {
+    width: 100%;
+    height: 1300px;
+    background: #1c1a19;
+    background-image: url(./images/footer-desktop.png);
+    background-position: top 150px right 0;
+    background-size: 428px 271px;
+    background-repeat: no-repeat;
+    margin-top: 233px;
+  }
+
+  .abiodundesc {
+    margin: -183px 142px 146px 80px;
+  }
+
+  .abiodunHeader h2 {
+    width: 566px;
+    height: 78px;
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81px;
+    color: #f55800;
+  }
+
+  .abiodunbody p {
+    width: 426px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-bottom: 24px;
+  }
+
+  .abiodunbtn button {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+  }
+
+  .abiodundesc hr {
+    margin-top: 153px;
+  }
+
+  .abiodunskillheader .language {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .abiodunskillheader ul li {
+    list-style-type: none;
+  }
+
+  .abiodunskills {
+    margin: 0 153px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+
+  .abiodunskills .skilllist ul li {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 43px;
+    list-style-type: none;
+  }
+
+  .footer-img hr {
+    width: 84vw;
+    margin: 104px 45px 0 22px;
+  }
+
+  .contact-me {
+    display: flex;
+    margin: 70px 60px;
+  }
+
+  .terminal-line hr {
+    display: none;
+  }
+
+  .contact-me p {
+    line-height: 40px;
+    width: 420px;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 10px;
+  }
+
+  .contact-me button {
+    margin-left: 19px;
+  }
+
+  .contact-me hr {
+    width: 444px;
+  }
+
+  .contact-me textarea {
+    width: 435px;
+  }
+
+  .footer-social-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 205px;
+  }
+
+  .terminal-line ul {
+    margin-right: 384px;
+  }
 }
