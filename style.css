@@ -21,7 +21,7 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
-/* header section style*/
+/* header section style */
 .info {
   height: 40px;
   padding-bottom: 15px;
@@ -80,7 +80,7 @@ p {
   margin: 0 12px 13px 10px;
 }
 
-/* intro section style*/
+/* intro section style */
 .intro h1 {
   color: #ff6b00;
   font-size: 56px;
@@ -322,7 +322,8 @@ p {
 
 .project {
   margin: 0 24px 36px 12px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(50, 50, 38, 0) 0.65%,
       rgba(38, 38, 38, 0.9) 75.94%
@@ -564,7 +565,7 @@ button:disabled {
   color: #000;
 }
 
-/* the background image style*/
+/* the background image style */
 .abiodundescright {
   position: absolute;
   right: 0;
