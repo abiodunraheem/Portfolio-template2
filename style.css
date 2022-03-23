@@ -292,8 +292,7 @@ p {
 
 .project {
   margin: 0 24px 36px 12px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(50, 50, 38, 0) 0.65%,
       rgba(38, 38, 38, 0.9) 75.94%
@@ -778,13 +777,19 @@ textarea {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: -13px;
+    /* margin-right: 10px; */
   }
 
   .social-icon {
     display: inline-block;
     margin-left: 1px;
     margin-top: -160px;
+  }
+
+  .intro .social-icon {
+    margin-right: 40px;
+    margin-left: 10px;
   }
 
   .intro h1 {
@@ -841,7 +846,7 @@ textarea {
   }
 
   .recent-work img {
-    width: 650px;
+    width: 550px;
     height: 400px;
   }
 
@@ -879,7 +884,7 @@ textarea {
   }
 
   .desktop-Projects {
-    margin: 5px 118px 0 38px;
+    margin: 5px 33px 0 1px;
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -890,8 +895,8 @@ textarea {
   }
 
   .project {
-    height: 435px;
-    width: 369px;
+    height: 403px;
+    width: 297px;
     border-radius: 0;
   }
 
@@ -905,7 +910,15 @@ textarea {
     display: block;
   }
 
+  .pj1 h3 {
+    display: none;
+  }
+
   .pj1 p {
+    display: none;
+  }
+
+  .pj1 ul {
     display: none;
   }
 
@@ -929,6 +942,7 @@ textarea {
 
   .pj6 {
     background: url(../images/deskt3.png);
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
@@ -940,19 +954,20 @@ textarea {
     font-weight: normal;
     font-size: 32px;
     line-height: 44px;
-    margin: 85px auto 24px auto;
+    margin: 76px auto 24px auto;
   }
 
   .projectBody p {
     position: relative;
-    margin: 97px auto 24px auto;
-    width: 337px;
+    margin: 60px auto 13px auto;
+    width: 307px;
     height: 72px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 17px 20px 8px 0;
   }
 
   .whoIsAbiodun {
