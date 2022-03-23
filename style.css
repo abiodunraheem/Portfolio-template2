@@ -292,8 +292,7 @@ p {
 
 .project {
   margin: 0 24px 36px 12px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(50, 50, 38, 0) 0.65%,
       rgba(38, 38, 38, 0.9) 75.94%
@@ -727,7 +726,7 @@ textarea {
 }
 
 /* Desktop version */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .harmburger {
     display: none;
   }
@@ -855,7 +854,8 @@ textarea {
 
   .main {
     width: 100%;
-    margin-left: 18px;
+    margin-left: 20px;
+    /* margin: 0 auto; */
   }
 
   .myWorksHeading h2 {
@@ -891,6 +891,7 @@ textarea {
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: 5px; */
   }
 
   .projectButton {
@@ -899,7 +900,7 @@ textarea {
 
   .project {
     height: 403px;
-    width: 297px;
+    width: 345px;
     border-radius: 0;
   }
 
@@ -945,8 +946,7 @@ textarea {
 
   .pj6 {
     background: url(../images/deskt3.png);
-
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
