@@ -308,7 +308,7 @@ p {
 
 .projectHeader {
   padding: 84px 16px 12px 16px;
-  width: 295px;
+  /* width: 295px; */
   height: 81px;
 }
 
@@ -852,7 +852,7 @@ textarea {
 
   .main {
     width: 100%;
-    margin-left: 30px;
+    margin-left: 18px;
   }
 
   .myWorksHeading h2 {
@@ -942,7 +942,7 @@ textarea {
 
   .pj6 {
     background: url(../images/deskt3.png);
-    background-size: cover;
+    /* background-size: cover; */
     background-repeat: no-repeat;
   }
 
