@@ -247,36 +247,6 @@ p {
   color: #fff;
 }
 
-.btn-2 {
-  width: 100%;
-  height: 48px;
-  background: #ff6b00;
-  text-align: center;
-  font-size: 17px;
-  margin-top: 20px;
-  border: 1px solid #ff6b00;
-  cursor: pointer;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.btn-2:enabled {
-  background: #ff6b00;
-  color: #fff;
-}
-
-.btn-2:hover {
-  background-color: #fff;
-  border: 1px solid #ff6b00;
-  color: #ff6b00;
-}
-
-.btn-2:active {
-  background: #ff6b00;
-  color: #fff;
-}
-
 .section-one li {
   list-style-type: none;
   line-height: 20px;
@@ -322,8 +292,7 @@ p {
 
 .project {
   margin: 0 24px 36px 12px;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       180.45deg,
       rgba(50, 50, 38, 0) 0.65%,
       rgba(38, 38, 38, 0.9) 75.94%
@@ -523,7 +492,6 @@ button:disabled {
 .abiodunbtn {
   width: 161px;
   height: 48px;
-  background: #ff6b00;
   text-align: center;
 }
 
@@ -869,6 +837,11 @@ textarea {
   .recent-work {
     display: flex;
     margin: 0 44px 0 64px;
+  }
+
+  .recent-work img {
+    width: 650px;
+    height: 400px;
   }
 
   .main {
