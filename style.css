@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
-
 body {
   background-color: #fff;
   position: relative;
@@ -269,6 +264,10 @@ p {
   width: 100%;
 }
 
+.mobile-hidden {
+  display: none;
+}
+
 .projectHeader h3 {
   font-family: 'Crete Round', serif;
   font-style: normal;
@@ -286,13 +285,10 @@ p {
   margin: 24px 1px 30px 13px;
 }
 
-.desktop-Projects {
-  display: none;
-}
-
 .project {
   margin: 0 24px 36px 12px;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       180.45deg,
       rgba(50, 50, 38, 0) 0.65%,
       rgba(38, 38, 38, 0.9) 75.94%
@@ -308,8 +304,6 @@ p {
 
 .projectHeader {
   padding: 84px 16px 12px 16px;
-
-  /* width: 295px; */
   height: 81px;
 }
 
@@ -779,8 +773,6 @@ textarea {
     flex-direction: row-reverse;
     flex-wrap: wrap;
     margin-left: -13px;
-
-    /* margin-right: 10px; */
   }
 
   .social-icon {
@@ -854,44 +846,22 @@ textarea {
 
   .main {
     width: 100%;
-    margin-left: 20px;
-    /* margin: 0 auto; */
   }
 
-  .myWorksHeading h2 {
-    float: left;
-    margin: 0 24px 114px 35.5px;
-    font-family: 'Crete Round', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
-    color: #091e42;
-    width: 315px;
-    height: 52px;
+  .mobile-hidden {
+    display: block;
   }
 
-  .myWorksHeading hr {
-    width: 794px;
-    height: 0;
-    border: 0;
-    border-bottom: 4px solid #212121;
-    padding: 26px 0;
-    position: relative;
-    top: -25px;
-  }
-
-  /* Individual projects section style */
-  .myProjects {
+  .desktop-hidden {
     display: none;
   }
 
-  .desktop-Projects {
-    margin: 5px 33px 0 1px;
-    position: relative;
+  .myProjects {
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* grid-gap: 5px; */
+    margin: 30px auto;
+    justify-items: center;
   }
 
   .projectButton {
@@ -904,50 +874,14 @@ textarea {
     border-radius: 0;
   }
 
-  .pj1 {
-    background: url(../images/projecthover.png);
+  .myProjects .pj1 {
+    background: url(./images/projecthover.png);
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .pj1 .projectButton {
+  .myProjects .pj1 .projectButton {
     display: block;
-  }
-
-  .pj1 h3 {
-    display: none;
-  }
-
-  .pj1 p {
-    display: none;
-  }
-
-  .pj1 ul {
-    display: none;
-  }
-
-  .pj2 {
-    background: url(../images/deskt2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .pj3 {
-    background: url(../images/deskt3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .pj5 {
-    background: url(../images/deskt2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .pj6 {
-    background: url(../images/deskt3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .projectHeader h3 {
@@ -961,6 +895,10 @@ textarea {
     margin: 76px auto 24px auto;
   }
 
+  .myProjects .pj1 h3 {
+    display: none;
+  }
+
   .projectBody p {
     position: relative;
     margin: 60px auto 13px auto;
@@ -972,6 +910,53 @@ textarea {
     font-size: 16px;
     line-height: 20px;
     padding: 17px 20px 8px 0;
+  }
+
+  .abiodunbody p {
+    width: 426px;
+    height: 148px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    margin-bottom: 24px;
+  }
+
+  .contact-me p {
+    line-height: 40px;
+    width: 420px;
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 10px;
+  }
+
+  .myProjects .pj1 p {
+    display: none;
+  }
+
+  .myProjects .pj1 ul {
+    display: none;
+  }
+
+  .pj2 {
+    background: url(../images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .myProjects .pj2 {
+    display: block;
+    background: url(./images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .pj3 {
+    background: url(../images/deskt3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .whoIsAbiodun {
@@ -998,18 +983,6 @@ textarea {
     font-size: 72px;
     line-height: 81px;
     color: #f55800;
-  }
-
-  .abiodunbody p {
-    width: 426px;
-    height: 148px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
-    color: #f4f5f7;
-    margin-bottom: 24px;
   }
 
   .abiodunbtn button {
@@ -1067,14 +1040,6 @@ textarea {
     display: none;
   }
 
-  .contact-me p {
-    line-height: 40px;
-    width: 420px;
-    margin-top: 10px;
-    font-size: 35px;
-    margin-left: 10px;
-  }
-
   .contact-me button {
     margin-left: 19px;
   }
@@ -1090,10 +1055,5 @@ textarea {
   .footer-social-icon {
     display: flex;
     align-items: center;
-    margin-left: 205px;
-  }
-
-  .terminal-line ul {
-    margin-right: 384px;
   }
 }
