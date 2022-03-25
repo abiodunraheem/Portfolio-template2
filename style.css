@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+html,
 body {
   background-color: #fff;
   position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -64,7 +70,7 @@ p {
   background-position: right 0 bottom -47px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  height: 115vh;
+  height: 600px;
   color: #fff;
   padding: 0;
 }
@@ -85,7 +91,7 @@ p {
   letter-spacing: 0.03em;
   line-height: 64px;
   padding-bottom: 30px;
-  padding-left: 24px;
+  padding-left: 17px;
   padding-top: 40px;
   margin-top: 68px;
 }
@@ -95,7 +101,7 @@ p {
   font-style: normal;
   font-weight: bold;
   line-height: 32px;
-  padding-left: 24px;
+  padding-left: 17px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -105,7 +111,7 @@ p {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
-  padding-left: 24px;
+  padding-left: 17px;
   padding-right: 24px;
   margin-top: 15px;
 }
@@ -113,7 +119,7 @@ p {
 .social-icon {
   display: flex;
   align-self: flex-start;
-  margin-left: 36px;
+  margin-left: 33px;
   padding-top: 18px;
 }
 
