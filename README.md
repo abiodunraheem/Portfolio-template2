@@ -2,7 +2,7 @@
 
 # Portfolio Setup Mobile Skeleton Project
 
-> This project is aimed at building a mobile skeleton of my portfolio.
+> This project is aimed at building my portfolio using a mobile first approach.
 
 ## Built With
 
