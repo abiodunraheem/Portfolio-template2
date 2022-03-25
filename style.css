@@ -706,6 +706,7 @@ textarea {
   background: #0d151e;
   width: 120px;
   margin-left: 32%;
+  margin-bottom: 10px;
 }
 
 .footer-social-icon {
@@ -729,6 +730,15 @@ textarea {
     height: 684px;
     color: #fff;
     padding: 0;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+    width: 268px;
+  }
+
+  .section-title hr {
+    width: 258px;
   }
 
   .recent-work img {
@@ -757,6 +767,14 @@ textarea {
     grid-template-columns: 59px 58px 85px 55px;
     column-gap: 5px;
     margin-left: -4px;
+  }
+
+  .input-details hr {
+    width: 274px;
+  }
+
+  .terminal-line hr {
+    margin-bottom: 10px;
   }
 }
 
