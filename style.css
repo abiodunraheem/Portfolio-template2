@@ -67,10 +67,10 @@ p {
 .section-container {
   background-image: url('./images/Group.png');
   background-size: 135px;
-  background-position: right 0 bottom -47px;
+  background-position: right 0 bottom -44px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 607px;
   color: #fff;
   padding: 0;
 }
@@ -112,7 +112,7 @@ p {
   font-style: normal;
   font-weight: normal;
   padding-left: 17px;
-  padding-right: 24px;
+  padding-right: 27px;
   margin-top: 15px;
 }
 
@@ -293,7 +293,12 @@ p {
 
 .project {
   margin: 0 24px 36px 12px;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/projectbg.png);
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(../images/projectbg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -717,6 +722,43 @@ textarea {
 
 .footer-social-icon a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .section-container {
+    background-image: url('./images/Group.png');
+    background-size: 135px;
+    background-position: right 0 bottom -43px;
+    background-color: #1c1a19;
+    background-repeat: no-repeat;
+    height: 684px;
+    color: #fff;
+    padding: 0;
+  }
+
+  .abiodundescleft .abiodunHeader h2 {
+    width: 274px;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 88px;
+    font-size: 60px;
+  }
+
+  .abiodunbody p {
+    width: 274px;
+  }
+
+  .abiodunbtn button {
+    background: #ff6b00;
+    margin-left: -1px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 59px 58px 85px 55px;
+    column-gap: 5px;
+    margin-left: -4px;
+  }
 }
 
 /* Desktop version */
