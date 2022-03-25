@@ -731,6 +731,11 @@ textarea {
     padding: 0;
   }
 
+  .recent-work img {
+    width: 280px;
+    height: 200px;
+  }
+
   .abiodundescleft .abiodunHeader h2 {
     width: 274px;
     font-weight: 400;
