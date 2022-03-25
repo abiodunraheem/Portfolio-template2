@@ -64,7 +64,7 @@ p {
   background-position: right 0 bottom -47px;
   background-color: #1c1a19;
   background-repeat: no-repeat;
-  height: 106vh;
+  height: 115vh;
   color: #fff;
   padding: 0;
 }
@@ -100,7 +100,7 @@ p {
 }
 
 .intro .about-me {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -739,7 +739,7 @@ textarea {
   }
 
   .my-info ul li {
-    padding-left: 10px;
+    padding-left: 30px;
     align-items: center;
     text-align: center;
   }
@@ -753,6 +753,7 @@ textarea {
 
   .section-two {
     margin: 24px 24px 30px 0;
+    width: 100%;
   }
 
   .section-container {
@@ -810,17 +811,19 @@ textarea {
     font-weight: normal;
     width: 40.2%;
     color: #fff;
+    font-size: 16px;
   }
 
   .section-title {
     display: flex;
     align-items: center;
-    margin: 0 34px 80px 44px;
+    margin: 0 auto 80px auto;
+    width: 85%;
   }
 
   .section-title hr {
     margin-top: 122px;
-    width: 63%;
+    width: 60%;
     margin-right: 33px;
     height: 0;
   }
@@ -833,11 +836,12 @@ textarea {
 
   .recent-work {
     display: flex;
-    margin: 0 44px 0 64px;
+    margin: 0 auto;
+    width: 85%;
   }
 
   .recent-work img {
-    width: 550px;
+    width: 520px;
     height: 400px;
   }
 
