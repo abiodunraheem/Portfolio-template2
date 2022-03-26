@@ -14,7 +14,7 @@
 - Open your terminal or command line
 - Run "git clone Paste [this link](https://github.com/abiodunraheem/Portfolio-template2)"
 - Open the folder with your code editor
-- Create a branch you want to work on
+- Create a branch to work on
 - Now You can edit the code and make a pull request
 
 ## Author
