@@ -1015,7 +1015,7 @@ textarea {
   }
 
   .pj1:hover {
-    background: url(../images/deskt4.png);
+    background: url(./images/deskt4.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1023,7 +1023,7 @@ textarea {
   }
 
   .pj2:hover {
-    background: url(../images/deskt2.png);
+    background: url(./images/deskt2.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1031,7 +1031,7 @@ textarea {
   }
 
   .pj3:hover {
-    background: url(../images/deskt3.png);
+    background: url(./images/deskt3.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -1039,7 +1039,7 @@ textarea {
   }
 
   .pj4:hover {
-    background: url(../images/deskt4.png);
+    background: url(./images/deskt4.png);
     background-size: cover;
     background-repeat: no-repeat;
     cursor: pointer;
