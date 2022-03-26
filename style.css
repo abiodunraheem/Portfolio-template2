@@ -1021,6 +1021,13 @@ textarea {
     transition: all 0.5s ease-in-out;
   }
 
+  .pj1:hover {
+    background: url(./images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
   .whoIsAbiodun {
     width: 100%;
     height: 1300px;
