@@ -662,10 +662,8 @@ button:disabled {
 
 input {
   border: hidden;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-top: 15px;
   width: 320px;
+  padding: 15px 0 15px 20px;
 }
 
 .input-details hr {
@@ -677,21 +675,14 @@ input {
 
 .text-area {
   align-items: center;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
-  padding-bottom: 15px;
-  padding-left: 20px;
-  padding-top: 15px;
+  border-style: hidden;
+  padding: 15px 0 15px 20px;
 }
 
 textarea {
   border: none;
   overflow: auto;
-  outline: none;
-  padding-top: 20px;
-  padding-left: 12px;
+  padding: 20px 0 0 12px;
   background: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -705,8 +696,7 @@ textarea {
   height: 1px;
   background: #0d151e;
   width: 120px;
-  margin-left: 32%;
-  margin-bottom: 10px;
+  margin: 0 0 10px 32%;
 }
 
 .footer-social-icon {
@@ -748,8 +738,6 @@ textarea {
 
   .abiodundescleft .abiodunHeader h2 {
     width: 274px;
-    font-weight: 400;
-    line-height: 88px;
     font-size: 60px;
   }
 
@@ -758,12 +746,10 @@ textarea {
   }
 
   .abiodunbtn button {
-    background: #ff6b00;
     margin-left: -1px;
   }
 
   .grid-container {
-    display: grid;
     grid-template-columns: 59px 58px 85px 55px;
     column-gap: 5px;
     margin-left: -4px;
@@ -788,8 +774,6 @@ textarea {
     margin: 0 1px 0 140px;
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
   }
 
   .my-info ul {
@@ -840,8 +824,7 @@ textarea {
 
   .social-icon {
     display: inline-block;
-    margin-left: 1px;
-    margin-top: -160px;
+    margin: -160px 0 0 1px;
   }
 
   .intro .social-icon {
@@ -858,15 +841,14 @@ textarea {
   }
 
   .about {
-    margin-right: 48%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     width: 40.2%;
-    margin-top: -50px;
     color: #fff;
+    margin: -50px 48% 0 0;
   }
 
   .about-me {
@@ -887,10 +869,9 @@ textarea {
   }
 
   .section-title hr {
-    margin-top: 122px;
     width: 60%;
-    margin-right: 33px;
     height: 0;
+    margin: 122px 33px 0 0;
   }
 
   .section-one {
@@ -1022,6 +1003,43 @@ textarea {
     background: url(./images/deskt4.png);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  /* animations and transitions style */
+  .project:hover .projectButton {
+    display: block;
+  }
+
+  .project:hover > * {
+    display: none;
+  }
+
+  .pj1:hover {
+    background: url(./images/deskt4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pj2:hover {
+    background: url(./images/deskt2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pj3:hover {
+    background: url(./images/deskt3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .pj4:hover {
+    background: url(./images/deskt4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
   }
 
   .whoIsAbiodun {

@@ -2,7 +2,7 @@
 
 # Portfolio Setup Mobile Skeleton Project
 
-> This project is aimed at building my portfolio using a mobile first approach.
+> This project is aimed at building my portfolio using a mobile first approach, and media query to target large screens.
 
 ## Built With
 
