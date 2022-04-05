@@ -6,7 +6,7 @@
 
 ## Built With
 
-- Html and Css
+- Html, Css, and Javascript
 
 ## To get a local copy run the following steps:
 
