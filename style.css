@@ -64,6 +64,58 @@ p {
   padding-right: 28px;
 }
 
+.mobile-menu {
+  display: none;
+  position: fixed;
+  background: #3c3a39;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  padding: 86px 96px 106px 0;
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+}
+
+.mobile-menu li {
+  margin: 30px 0 0 15px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.close-btn {
+  position: absolute;
+  font-size: 50px;
+  left: 326px;
+  top: 8px;
+  color: #67798e;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.terminal-hr {
+  border: 1px solid #0d151e;
+  height: 1px;
+  background: #0d151e;
+  width: 120px;
+  margin: 40px auto;
+}
+
+.mobile-hr {
+  width: 320px;
+  color: #6f6c6b;
+  align-items: center;
+  margin: 10px auto;
+}
+
 .section-container {
   background-image: url('./images/Group.png');
   background-size: 135px;
