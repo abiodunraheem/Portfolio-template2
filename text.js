@@ -110,7 +110,7 @@ const popupDetails = [
 ];
 const myPopup = document.querySelector('.popup-window');
 
-function popUp(){
+function popUp() {
   myPopup.style.display = 'block';
   myPopup.innerHTML = `
       <span class="close-btn" id="closeProject">&times;</span>
@@ -132,14 +132,18 @@ function popUp(){
           ${popupDetails[0].description}
           </p>
           <div class="popup-btn">
-            <button name="button" type="submit" class="btn-1">See Live <a href="#"><img src="images/go-icon.png" alt="live-icon" class="live-image"></a></button>
+            <button name="button" type="submit" class="btn-1"> <a href="https://github.com/abiodunraheem">See Live </a><img src="images/go-icon.png" alt="live-icon" class="live-image"></button>
             <button name="button" type="submit" class="btn-1">See Source <a href="#"><img src="images/git-white.png" alt="github-icon" class="live-image"></a></button>
           </div>
         </div>
       </div>`;
-    body.appendChild(myPopup);
-    document.addEventListener('click', (click) => {    if (click.target.id === 'closeModal') {    popUp.style.display = 'none';    }     });
+  body.appendChild(myPopup);
+  document.addEventListener('click', (click) => { if (click.target.id === 'closeProject') { myPopup.style.display = 'none'; } });
 }
+const seeProject = document.querySelector('.btn-1');
+seeProject.addEventListener('click', () => {
+  popUp();
+});
 
 document.addEventListener('click', (click) => {
   if (click.target.id === 'proj1') {
@@ -149,28 +153,23 @@ document.addEventListener('click', (click) => {
 
 const mobileMenu = document.getElementById('mobileMenu');
 const openBtn = document.getElementById('barsBtn');
+
+const openBtn2 = document.getElementById('btn-2');
+const openPopwindow = document.getElementById('pop-window');
 const closeBtn = document.getElementById('closeBtn');
 const link = document.querySelectorAll('.link');
-// const openProject = document.querySelectorAll('.btn-1');
-// const closeProject = document.getElementById('closeProject');
 function openModal() {
   mobileMenu.style.display = 'block';
 }
+
+openBtn2.addEventListener('click', () => {
+  openPopwindow.classList.add('show');
+});
 function closeModal() {
   mobileMenu.style.display = 'none';
 }
-// function seeProject() {
-//   openProject.style.display = 'block';
-// }
-// function closeButton() {
-//   openProject.style.display = 'none';
-// }
 openBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 link.forEach((link) => {
   link.addEventListener('click', closeModal);
 });
-// closeProject.addEventListener('click', closeButton);
-// openProject.forEach((openProject) => {
-//   openProject.addEventListener('click', seeProject);
-// });

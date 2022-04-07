@@ -95,7 +95,7 @@ p {
   position: absolute;
   font-size: 50px;
   left: 326px;
-  top: 8px;
+  top: -5px;
   color: #67798e;
   font-weight: 700;
   cursor: pointer;
@@ -764,12 +764,10 @@ textarea {
   margin: 18px 11px 30px 12px;
   position: fixed;
   background: #fff;
-  /* backdrop-filter: blur(10px); */
   top: 0;
   height: 100%;
   width: 90%;
   padding: 11px 0 12px 13px;
-  /* margin: 0 auto; */
 }
 
 .popup-heading h2 {
@@ -784,6 +782,14 @@ textarea {
 
 .popup-menu {
   display: flex;
+}
+
+.popup-btn a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .popup-menu li {
@@ -814,6 +820,10 @@ textarea {
 
 .image-1 {
   margin: 5px auto;
+}
+
+.popup-window .show {
+  display: block;
 }
 
 .popup-window p {
@@ -1305,6 +1315,10 @@ textarea {
   .side-bar p {
     margin: 8px 5px 129px 5px;
     line-height: 30px;
+  }
+
+  .close-btn {
+    left: 876px;
   }
 
   .image-1 img {
