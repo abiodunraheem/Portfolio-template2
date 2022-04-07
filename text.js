@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+// const body = document.querySelector('body');
 
 const projectList = [
   {
@@ -98,6 +98,11 @@ function loopdiv() {
 window.addEventListener('load', () => {
   loopdiv();
 });
+const popupDetails = [
+  {
+    
+  }
+]
 
 const mobileMenu = document.getElementById('mobileMenu');
 const openBtn = document.getElementById('barsBtn');
@@ -111,18 +116,18 @@ function openModal() {
 function closeModal() {
   mobileMenu.style.display = 'none';
 }
-function seeProject() {
-  openProject.style.display = 'block';
-}
-function closeButton() {
-  openProject.style.display = 'none';
-}
+// function seeProject() {
+//   openProject.style.display = 'block';
+// }
+// function closeButton() {
+//   openProject.style.display = 'none';
+// }
 openBtn.addEventListener('click', openModal);
-closeBtn.addEventListener('click', closeModal);
+// closeBtn.addEventListener('click', closeModal);
 link.forEach((link) => {
   link.addEventListener('click', closeModal);
 });
-closeProject.addEventListener('click', closeButton);
+// closeProject.addEventListener('click', closeButton);
 openProject.forEach((openProject) => {
   openProject.addEventListener('click', seeProject);
 });
