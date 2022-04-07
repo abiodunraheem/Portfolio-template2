@@ -1107,6 +1107,10 @@ textarea {
     margin-left: 10px;
   }
 
+  .popup-window p {
+    margin-bottom: 178px;
+  }
+
   .myProjects .pj1 p {
     display: none;
   }
@@ -1279,10 +1283,6 @@ textarea {
     width: 85%;
     padding: 10px 12px 13px 37px;
     margin: 30px 10px 10px 29px;
-  }
-
-  .popup-window p {
-    margin-bottom: 178px;
   }
 
   .popup-menu {
