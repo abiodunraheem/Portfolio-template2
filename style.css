@@ -778,7 +778,7 @@ textarea {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color: #172b4d;
-  line-height: 35px;
+  line-height: 20px;
   padding-bottom: 14px;
 }
 
@@ -813,7 +813,7 @@ textarea {
 }
 
 .image-1 {
-  margin: 10px auto;
+  margin: 5px auto;
 }
 
 .popup-window p {
@@ -1268,10 +1268,10 @@ textarea {
   }
 
   .popup-window {
-    height: 70%;
+    height: 83%;
     width: 85%;
-    padding: 10px 12px 13px 27px;
-    margin: 93px 10px 13px 29px;
+    padding: 10px 12px 13px 37px;
+    margin: 30px 10px 10px 29px;
   }
 
   .popup-heading h2 {
@@ -1280,6 +1280,12 @@ textarea {
 
   .popup-menu {
     padding-bottom: 20px;
+    padding-top: 10px;
+  }
+
+  .popup-heading h2 {
+    line-height: 30px;
+    padding-top: 10px;
   }
 
   .desktop {
@@ -1297,9 +1303,8 @@ textarea {
   }
 
   .side-bar p {
-    margin: 8px 5px 133px 5px;
+    margin: 8px 5px 129px 5px;
     line-height: 30px;
-    width: 291px;
   }
 
   .image-1 img {
