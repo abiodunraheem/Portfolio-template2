@@ -1132,12 +1132,6 @@ textarea {
     background-repeat: no-repeat;
   }
 
-  .myProjects .pj4 {
-    background: url(./images/deskt4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   /* animations and transitions style */
   .project:hover .projectButton {
     display: block;
