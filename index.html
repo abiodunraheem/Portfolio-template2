@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link    rel="stylesheet"    href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"    />    <link    rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"    /><!-- font awesome icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,389 +14,225 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="info">
-            <nav class="my-info">
-                <a class="name" href="#">Abiodun</a>
-                <ul>
-                    <li><a>Portfolio</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Contact</a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                </ul>
-                <a href="#" class="harmburger" id="barsBtn">&#9776;</a>
-            </nav>
-        </header>
-
-        <section class="section-container" id="portfolio">
-            <div class="intro">
-                <h1>Hey There. 
-                    I’m  Abiodun
-                </h1>
-                <p class="about">I’m a Software Developer</p>
-                <p class="about-me">I can help you build a product,
-                        feature or website Look through some of my work and experience!
-                        If you like what you see and have a project you need coded,
-                        don’t hestiate to contact me.
-                </p>
-                <ul class="social-icon">
-                    <li><a href="#"><img src="images/github.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/angel.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/medium.png" alt=""></a></li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="section-two">
-          <div class="section-title">
-            <h2>My Recent Works</h2>
-            <hr>
+  <section class="desktop-popup">
+    <div class="popup-window">
+      <span class="close-btn" id="closeProject">&times;</span>
+      <div class="popup-heading">
+        <h2 class="mobile">Multi-Post Stories</h2>
+        <h2 class="desktop">Keeping track of hundreds  of components website</h2>
+      </div>
+      <ul class="popup-menu">
+        <li class=""><a href="#">html</a></li>
+        <li class=""><a href="#">Bootstrap</a></li>
+        <li class=""><a href="#">Ruby on rails</a></li>
+      </ul>
+      <div class="popup-work">
+        <div class="image-1">
+          <img src="./images/popup-window.png" alt="promotion image" width="310" height="210">
+        </div>
+        <div class="side-bar">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took galley of type and scrambled  
+          </p>
+          <div class="popup-btn">
+            <button name="button" type="submit" class="btn-1">See Live <img src="images/go-icon.png" alt="live-icon" class="live-image"></button>
+            <button name="button" type="submit" class="btn-1">See Source <img src="images/git-white.png" alt="github-icon" class="live-image"></button>
           </div>
-        
-          <div class="recent-work">
-            <div class="image-1">
-              <img src="./images/section-1.png" alt="">
-            </div>
-            <div class="section-one">
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized reads;
-                no accounts or sign-ups required. 
-                has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a standard dummy text.
-              </p>                    
-              <ul class="grid-container">
-                <li class="grid-item1"><a href="#">css</a></li>
-                <li class="grid-item2"><a href="#">html</a></li>
-                <li class="grid-item3"><a href="#">bootstrap</a></li>
-                <li class="grid-item4"><a href="#">Ruby</a></li>
-              </ul>
-              <button name="button" type="submit" class="btn-1">See Project</button>
-            </div>
-          </div>
-        </section>
-
-        <main class="main">
-          <section class="myProjects">
-            <div class="project pj1">
-              <div class="projectHeader">
-                <h3>Profesional Art Printing Data</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div>
-    
-            <div class="project pj2">
-              <div class="projectHeader">
-                <h3 class="desktop-hidden">Profesional Art Printing Data</h3>
-                <h3 class="mobile-hidden">Data Dashboard Healthcare</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div>
-    
-            <div class="project pj3">
-              <div class="projectHeader">
-                <h3 class="desktop-hidden">Profesional Art Printing Data</h3>
-                <h3 class="mobile-hidden">Website Portfolio</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                  </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div>
-    
-            <div class="project pj4">
-              <div class="projectHeader">
-                <h3>Profesional Art Printing Data</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div>
-    
-            <div class="project pj2">
-              <div class="projectHeader">
-                <h3 class="desktop-hidden">Profesional Art Printing Data</h3>
-                <h3 class="mobile-hidden">Data Dashboard Healthcare</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div>
-    
-            <div class="project pj3">
-              <div class="projectHeader">
-                <h3 class="desktop-hidden">Profesional Art Printing Data</h3>
-                <h3 class="mobile-hidden">Website Portfolio</h3>
-              </div>
-              <div class="projectBody">
-                <p>
-                  A daily selection of privately personalized reads; no accounts or
-                  sign-ups required. has been the industry's standard
-                </p>
-                <ul>
-                  <li class="projectHTML">
-                    <ul>
-                      <li>html</li>
-                    </ul>
-                  </li>
-                  <li class="projectBootstrap">
-                    <ul>
-                      <li>bootstrap</li>
-                    </ul>
-                  </li>
-                  <li class="projectRuby">
-                    <ul>
-                      <li>ruby</li>
-                  </ul>
-                  </li>
-                </ul>
-              </div>
-              <div class="projectButton">
-                <button type="button">See Project</button>
-              </div>
-            </div> 
-          </section>
-        </main>
-    
-        <section class="whoIsAbiodun" id="about">
-            <div class="abiodundesc">
-              <div class="abiodundescleft">
-                <div class="abiodunHeader">
-                  <h2>About me</h2>
-                </div>
-                <div class="abiodunbody">
-                  <p>
-                    Hello I'm a software developer! I can help you build a product ,
-                    feature or website Look through some of my work and experience!
-                    If you like what you see and have a project you need coded,
-                    don't hestiate to contact me.
-                  </p>
-                  <div class="abiodunbtn">
-                    <button type="button">Get My Resume</button>
-                  </div>
-                </div>
-              </div>
-              <hr />
-            </div>
-    
-            <div class="abiodunskills">
-              <div class="skill">
-                <div class="abiodunskillheader">
-                  <ul>
-                    <li class="lang"></li>
-                    <li class="language">Language</li>
-                  </ul>
-                </div>
-                <div class="skilllist">
-                  <ul>
-                    <li>Javascript</li>
-                    <li>Ruby</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="skill">
-                <div class="abiodunskillheader">
-                  <ul>
-                    <li class="frame"></li>
-                    <li class="frameworks">Frameworks</li>
-                  </ul>
-                </div>
-                <div class="skilllist">
-                  <ul>
-                    <li>Bootstrap</li>
-                    <li>Ruby on Rails</li>
-                    <li>RSPec</li>
-                    <li>CapyBara</li>
-                    <li>Selenium</li>
-                  </ul>
-                </div>
-              </div>
-    
-              <div class="skill">
-                <div class="abiodunskillheader">
-                  <ul>
-                    <li class="sk"></li>
-                    <li class="skills">Skills</li>
-                  </ul>
-                </div>
-                <div class="skilllist">
-                  <ul>
-                    <li>Codekit</li>
-                    <li>Github</li>
-                    <li>Codepen</li>
-                    <li>Gitlab</li>
-                    <li>Terminal</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          <section class="about-me2" id="contact">
-            <div class="contact-me">
-                <p>
-                    I'm always interested in 
-                    hearing about new projects, 
-                    so if you'd like to chat please get in touch.   
-                </p>
-                <form action="https://formspree.io/f/xpzbdbeq" method="post">
-                    <ul>
-                        <li class="input-details">
-                            <input type="text" placeholder="Full name" maxlength="30" required>
-                            <hr>
-                        </li>
-                        <li class="input-details">
-                            <input type="email" placeholder="Email address" required>
-                            <hr>
-                        </li>
-                        <li class="text-area">
-                        <textarea name="Enter-text" id="enter-text" cols="41" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
-                        </li>
-                    </ul>
-                    <button name="button" type="submit" class="btn-1">Get in touch</button>
-                </form>
-            </div>
-            <hr>
-            <div class="terminal-line">
-                <ul class="footer-social-icon">
-                    <li><a href="#"><img src="images/footer-github.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/footer-linkedin.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/footer-angel.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/footer-twiter.png" alt=""></a></li>
-                    <li><a href="#"><img src="images/footer-M.png" alt=""></a></li>
-                </ul>
-                <hr>
-            </div>
-        </section>
+        </div>
+      </div>
     </div>
+  </section>
+  
+  <div class="container wrapper" id="blur">
+    <header class="info">
+      <nav class="my-info">
+        <a class="name" href="#">Abiodun</a>
+        <ul>
+          <li><a>Portfolio</a></li>
+          <li><a>About</a></li>
+          <li><a>Contact</a></li>
+          <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        </ul>
+        <a href="#" class="harmburger" id="barsBtn">&#9776;</a>
+      </nav>
+    </header>
+
+    <section class="section-container" id="portfolio">
+      <div class="intro">
+        <h1>Hey There. 
+          I’m  Abiodun
+        </h1>
+        <p class="about">I’m a Software Developer</p>
+        <p class="about-me">I can help you build a product,
+            feature or website Look through some of my work and experience!
+            If you like what you see and have a project you need coded,
+            don’t hestiate to contact me.
+        </p>
+        <ul class="social-icon">
+          <li><a href="#"><img src="images/github.png" alt=""></a></li>
+          <li><a href="#"><img src="images/linkdin.png" alt=""></a></li>
+          <li><a href="#"><img src="images/angel.png" alt=""></a></li>
+          <li><a href="#"><img src="images/twitter.png" alt=""></a></li>
+          <li><a href="#"><img src="images/medium.png" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-two">
+      <div class="section-title">
+        <h2>My Recent Works</h2>
+        <hr>
+      </div>
+        
+      <div class="recent-work">
+        <div class="img-1">
+          <img src="./images/section-1.png" alt="">
+        </div>
+        <div class="section-one">
+          <h2>Multi-Post Stories</h2>
+          <p>
+            A daily selection of privately personalized reads;
+            no accounts or sign-ups required. 
+            has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a standard dummy text.
+          </p>                    
+          <ul class="grid-container">
+            <li class="grid-item1"><a href="#">css</a></li>
+            <li class="grid-item2"><a href="#">html</a></li>
+            <li class="grid-item3"><a href="#">bootstrap</a></li>
+            <li class="grid-item4"><a href="#">Ruby</a></li>
+          </ul>
+          <button name="button" type="submit" class="btn-1" id="btn">See Project</button>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="myProjects">
+            
+      </section>
+    </main> 
+    
+    <section class="whoIsAbiodun" id="about">
+      <div class="abiodundesc">
+        <div class="abiodundescleft">
+          <div class="abiodunHeader">
+            <h2>About me</h2>
+          </div>
+          <div class="abiodunbody">
+              <p>
+              Hello I'm a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience!
+              If you like what you see and have a project you need coded,
+              don't hestiate to contact me.
+            </p>
+            <div class="abiodunbtn">
+              <button type="button" id="btn-2">Get My Resume</button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    
+      <div class="abiodunskills">
+        <div class="skill">
+          <div class="abiodunskillheader">
+            <ul>
+              <li class="lang"></li>
+              <li class="language">Language</li>
+            </ul>
+          </div>
+          <div class="skilllist">
+            <ul>
+              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Html</li>
+              <li>Css</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="abiodunskillheader">
+            <ul>
+              <li class="frame"></li>
+              <li class="frameworks">Frameworks</li>
+            </ul>
+          </div>
+          <div class="skilllist">
+            <ul>
+              <li>Bootstrap</li>
+              <li>Ruby on Rails</li>
+              <li>RSPec</li>
+              <li>CapyBara</li>
+              <li>Selenium</li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="skill">
+          <div class="abiodunskillheader">
+            <ul>
+              <li class="sk"></li>
+              <li class="skills">Skills</li>
+            </ul>
+          </div>
+          <div class="skilllist">
+            <ul>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-me2" id="contact">
+      <div class="contact-me">
+        <p>
+          I'm always interested in 
+          hearing about new projects, 
+          so if you'd like to chat please get in touch.   
+        </p>
+        <form action="https://formspree.io/f/xpzbdbeq" method="post">
+          <ul>
+            <li class="input-details">
+              <input type="text" placeholder="Full name" maxlength="30" required>
+              <hr>
+            </li>
+            <li class="input-details">
+              <input type="email" placeholder="Email address" required>
+              <hr>
+            </li>
+            <li class="text-area">
+            <textarea name="Enter-text" id="enter-text" cols="41" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+            </li>
+          </ul>
+          <button name="button" type="submit" class="btn-1">Get in touch</button>
+        </form>
+      </div>
+      <hr>
+      <div class="terminal-line">
+        <ul class="footer-social-icon">
+          <li><a href="#"><img src="images/footer-github.png" alt="github-image"></a></li>
+          <li><a href="#"><img src="images/footer-linkedin.png" alt="linkedin-image"></a></li>
+          <li><a href="#"><img src="images/footer-angel.png" alt="angel-image"></a></li>
+          <li><a href="#"><img src="images/footer-twiter.png" alt="twiter-image"></a></li>
+          <li><a href="#"><img src="images/footer-M.png" alt="medium-image"></a></li>
+        </ul>
+        <hr>
+      </div>
+    </section>
 
     <div class="mobile-menu" id="mobileMenu">
       <div class="mobile-ul">
         <span class="close-btn" id="closeBtn">&times;</span>
-        <ul class="mobile-hr">
+    <ul class="mobile-hr">
           <li><a class="link" href="#portfolio">Portfolio</a></li>
         </ul>
         <hr class="mobile-hr">
@@ -410,7 +246,10 @@
         <hr class="mobile-hr">
       </div>
     </div>
-    <script src="text.js"></script>
+    
+    
+  </div>    
+<script src="text.js"></script>
 </body>
 </html>
     
