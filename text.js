@@ -58,10 +58,11 @@ const projectList = [
 ];
 
 const projectsSection = document.querySelector('.myProjects');
+const wrapper = document.querySelector('.wrapper');
 function loopdiv() {
   projectsSection.innerHTML = '';
   for (let i = 0; i < projectList.length; i += 1) {
-    projectsSection.innerHTML = `${projectsSection.innerHTML}
+    projectsSection.innerHTML = `${projectsSection.innerHTML}  
   <div class="project">
            <div class="projectHeader">
              <h3>${projectList[i].projectHeader}</h3>
@@ -94,10 +95,8 @@ function loopdiv() {
       </div>`;
   }
 }
+loopdiv();
 
-window.addEventListener('load', () => {
-  loopdiv();
-});
 const popupDetails = [
   {
     popheader: 'Multi-Post Stories',
@@ -138,19 +137,26 @@ function popUp() {
         </div>
       </div>`;
   body.appendChild(myPopup);
-  document.addEventListener('click', (click) => { if (click.target.id === 'closeProject') { myPopup.style.display = 'none'; } });
 }
-const seeProject = document.querySelector('.btn-1');
+const seeProject = document.querySelector('#btn');
 seeProject.addEventListener('click', () => {
   popUp();
+  wrapper.classList.add('active');
 });
 
 document.addEventListener('click', (click) => {
   if (click.target.id === 'proj1') {
     popUp();
+    wrapper.classList.add('active');
   }
 });
 
+document.addEventListener('click', (click) => {
+  if (click.target.id === 'closeProject') {
+    myPopup.style.display = 'none';
+    wrapper.classList.remove('active');
+  }
+});
 const mobileMenu = document.getElementById('mobileMenu');
 const openBtn = document.getElementById('barsBtn');
 
