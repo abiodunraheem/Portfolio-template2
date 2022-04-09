@@ -194,7 +194,29 @@ function formValidate() {
 }
 
 form.addEventListener('submit', (submitForm) => {
-  if (!formValidate()) {
-    submitForm.preventDefault();
-  }
+  submitForm.preventDefault();
+});
+
+const userName = document.querySelector('.fullname');
+const textContent = document.querySelector('.text');
+const email = document.getElementById('email');
+
+const formElements = document.querySelectorAll('input, textarea');
+const localData = JSON.parse(localStorage.getItem('storage'));
+if (localData !== null) {
+  formValidate();
+  userName.value = localData.name;
+  email.value = localData.email;
+  textContent.value = localData.message;
+}
+
+formElements.forEach((item) => {
+  item.addEventListener('input', () => {
+    const objData = {
+      name: userName.value,
+      email: email.value,
+      message: textContent.value,
+    };
+    localStorage.setItem('storage', JSON.stringify(objData));
+  });
 });
