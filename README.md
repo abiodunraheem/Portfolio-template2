@@ -21,22 +21,18 @@
 - Create a branch to work on
 - Now You can edit the code and make a pull request
 
-## Author
-
 👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/abiodunraheem)
 - Twitter: [@twitterhandle](https://twitter.com/@abiodunraheem23)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/abiodun-raheem-908b33154)
-
-👤 **Author**
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abiodun-raheem)
 
 ## 🤝 Contributing
 
 - GitHub: [@githubhandle](https://github.com/Dinma-Faith)
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/abiodunraheem/Portfolio-template2/issues/).
 
 ## Show your support
 
